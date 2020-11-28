@@ -167,7 +167,7 @@
                         if ( !m || !m[1] ) return null;
                         return m[1];
                     },
-                    src: 'https://www.youtube.com/embed/%id%?autoplay=1'
+                    src: 'https://www.youtube.com/embed/PoVBAakPeIc'
                 },
                 vimeo: {
                     index: 'vimeo.com/', 
