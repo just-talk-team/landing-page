@@ -1,0 +1,24 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -S -C ./certified/cert.pem -K ./certified/key.pem -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/just-talk-team/landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/just-talk-team/landing-page/issues"
+  },
+  "homepage": "https://github.com/just-talk-team/landing-page#readme",
+  "dependencies": {
+    "firebase": "^8.2.1",
+    "http-server": "^0.12.3"
+  }
+}
