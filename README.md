@@ -1,12 +1,17 @@
 # Start Project
+
 ## Download
+
 - NodeJS and NPM
 
 ## Commands
+
 - npm install
 
 ## Develop
-- npx http-server -S -C cert.pem -c-1
+
+- npm run start
 
 ## Deploy to Firebase
-- npx firebase deploy
+
+- npm run deploy
