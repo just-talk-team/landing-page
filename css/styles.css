@@ -51,7 +51,7 @@ a {
 }
 
 .header__menu-item {
-  margin-right: 0.5rem;
+  margin-right: 0.8rem;
 }
 
 .header__menu-item a {
@@ -84,12 +84,15 @@ a {
   align-items: center;
   background: url("../assets/images/background-figures-and-colors.svg")
     no-repeat fixed center;
-  color: #1092b3;
+  color: #00000070;
 }
 
 .main__title {
   margin-bottom: 1rem;
   font-size: 2.5rem;
+  background: white;
+  border-radius: 10px;
+  padding: 0.5rem;
 }
 
 .main__value-proposal {
@@ -98,10 +101,20 @@ a {
   font-size: 1.5rem;
   margin-bottom: 2rem;
   opacity: 0.8;
+  background: white;
+  border-radius: 10px;
+  padding: 0.5rem;
 }
 
 .main__google-play {
   max-height: 4rem;
+}
+
+.main__social-network {
+  display: block;
+  position: fixed;
+  right: 0;
+  bottom: 0;
 }
 
 @media screen and (min-width: 600px) {
@@ -133,6 +146,10 @@ a {
     width: 50vw;
     background: url(../assets/images/background-figures-and-colors.svg)
       no-repeat center center;
+  }
+
+  .main__social-network {
+    display: none;
   }
 }
 
