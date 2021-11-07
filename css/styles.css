@@ -36,7 +36,8 @@ a {
 .header__logo {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
-  max-height: 10vh;
+  height: 2.5rem;
+  border-radius: 1.25rem;
 }
 
 .header__menu {
@@ -82,16 +83,12 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url("../assets/images/background-figures-and-colors.svg")
-    no-repeat fixed center;
-  color: #00000070;
+  color: #000000e1;
 }
 
 .main__title {
   margin-bottom: 1rem;
   font-size: 2.5rem;
-  background: white;
-  border-radius: 10px;
   padding: 0.5rem;
 }
 
@@ -99,15 +96,17 @@ a {
   margin-bottom: 1rem;
   text-align: center;
   font-size: 1.5rem;
-  margin-bottom: 2rem;
-  opacity: 0.8;
-  background: white;
-  border-radius: 10px;
+  margin-bottom: 3rem;
   padding: 0.5rem;
 }
 
-.main__google-play {
-  max-height: 4rem;
+.main__inscription-button {
+  color: #ffff;
+  font-size: 1.5rem;
+  padding: 1rem;
+  background-color: #ff0a5f;
+  border-radius: 1rem;
+  cursor: pointer;
 }
 
 .main__social-network {
@@ -117,10 +116,14 @@ a {
   bottom: 0;
 }
 
+.main__youtube-icon {
+  height: 2rem;
+  margin: 0.5rem;
+}
+
 @media screen and (min-width: 600px) {
   .main {
     height: 90vh;
-    background: url("../assets/images/background-waves.svg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -144,8 +147,6 @@ a {
 
   .main__description {
     width: 50vw;
-    background: url(../assets/images/background-figures-and-colors.svg)
-      no-repeat center center;
   }
 
   .main__social-network {
@@ -166,9 +167,5 @@ a {
 
   .main__value-proposal {
     font-size: 1rem;
-  }
-
-  .main__google-play {
-    max-height: 3rem;
   }
 }
